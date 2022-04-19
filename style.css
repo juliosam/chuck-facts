@@ -1,0 +1,57 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(210, 237, 255);
+}
+
+body{margin:0}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/chuck-WP.jpg);
+}
+
+.card {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.card__title{color: salmon;}
+
+.card__dropdown span{
+    color:salmon;
+}
+
+.card__list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__list li {
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+    line-height: 2rem;
+}
+
+.card__list li:hover {
+    cursor: pointer;
+    color: aquamarine;
+    font-size: 18px;
+}
+
+.card__list li:active {
+
+    color: salmon;
+    font-weight: 600;
+}
+
+h2, h2 span{
+    color: yellow;
+}
